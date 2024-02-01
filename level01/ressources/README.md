@@ -13,10 +13,8 @@
 		<li>I installed it on my own machine</li>
 		<li>Created the file <code>tocrack.txt</code> and used <em>johntheripper</em> on it
 			<blockquote>
-				<p>
-				<code>john --show tocrack.txt</code>
-				<code>flag01:abcdefg:3001:3001::/home/flag/flag01:/bin/bash</code>
-				</p>
+				<p><code>john --show tocrack.txt</code></p>
+				<p><code>flag01:abcdefg:3001:3001::/home/flag/flag01:/bin/bash</code></p>
 			</blockquote>
 		</li>
 		<li>So we can the the password here is : <code>abcdefg</code></li>

