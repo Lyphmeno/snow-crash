@@ -5,8 +5,6 @@
 - Then I try to *cat* the file but its unreadable
 - Using 'file'
 	> `level03: setuid setgid ELF 32-bit LSB executable`
-- So second thing I did is to try and use `GDB` with asm layout to understand the code
-- Didn't quite work on my machine so I did it on the snow-crash VM
 - I still wanted to get a good look at the file so I used:
 	> `objdump -M Intel -d level03`
 	> The -M Intel to get a more understandable asm for me
