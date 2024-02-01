@@ -1,4 +1,7 @@
-<h1 id="level03">Level03</h1>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Level03</h1>
 <ul>
 	<li>We spawn with a <code>level03</code> file in root repository</li>
 	<li>No extension so I try to execute it and it prints &#39;Exploit me&#39;</li>
@@ -42,3 +45,5 @@
 		</blockquote>
 	</li>
 </ul>
+<body>
+<html>
