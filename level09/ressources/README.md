@@ -9,7 +9,7 @@ Level 09
 	----r--r-- 1 flag09 level09   26 Mar  5  2016 token
 	```
 	Except this time we can read `token`
-*	When we try to execute `level09` we can see that it is a simpler *ceasar's cipher* depending on the position of each letter
+*	When we try to execute `level09` we can see that it is a simple *ceasar's cipher* depending on the position of each letter
 	```console
 	level09@SnowCrash:~$ ./level09 abcdef
 	acegik
