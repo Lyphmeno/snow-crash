@@ -11,7 +11,7 @@ Level 03
 	```
 *	I wanted to get a good look at the file so I used scp to get it on my machine and then:
 	```console
-	root@DESKTOP-69N2SL4:~# objdump -M Intel -d level03
+	root@DESKTOP-69N2SL4:~# objdump -M Intel -d level03 > dump.s
 	```
 *	Code was still kinda bad so I did a little script to make it cleaner:
 	```console
