@@ -55,3 +55,8 @@ Level 10
 	Password: 
 	Don't forget to launch getflag !
 	```
+
+REMEDY
+======
+
+This one is the hardest of all snow-crash, the only way I found to avoid this vulnerability is to lock a file during usage so that other programs are forbidden of using it (kinda like a mutex i guess)

@@ -31,3 +31,8 @@ This one was the easiest of all
 	level07@SnowCrash:~$ ./level07
 	Check flag.Here is your token : fiumuikeil55xe9cu4dood66h
 	```
+
+REMEDY
+======
+
+Either avoid executing the program as a super user or just disable interpretation when using echo on something !

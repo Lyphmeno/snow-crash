@@ -40,3 +40,11 @@ Level 04
 	level04@SnowCrash:~$ curl -X POST -d "x= | getflag" http://localhost:4747
 	Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
 	```
+REMEDY
+======
+
+To avoid this vulnerability we should avoid using this line
+```perl
+	print `echo $y 2>&1`;
+```
+Instead we should use the Perl's built-in [system()](https://perldoc.perl.org/functions/system) function instead of backticks `(``)`

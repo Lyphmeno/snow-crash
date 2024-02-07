@@ -42,3 +42,7 @@ Level 03
 	level03@SnowCrash:~$ ./level03
 	Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
 	```
+REMEDY
+======
+
+Most obvious thing we could do to fix this one would be to call echo with the absolute path `/usr/bin/echo`

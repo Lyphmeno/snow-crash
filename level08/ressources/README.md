@@ -36,3 +36,8 @@ Level 08
 	quif5eloekouj29ke0vouxean
 	```
 *	Btw I got scared since this password didn't work for the level09 but at the end its just the flag08 password
+
+REMEDY
+======
+
+Protect command instead of just restricting the file name
