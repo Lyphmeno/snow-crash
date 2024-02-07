@@ -1,4 +1,4 @@
-Level 06
+evel 06
 ========
 
 *	We spawn with a `level06` file in root repository
