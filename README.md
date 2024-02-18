@@ -59,7 +59,6 @@ Getting started
 - First of all I recommend to have done the [libasm](https://github.com/Lyphmeno/libasm) project with bonuses because it will help you understand most of the dump executable dumps without having to translate them to C
 - The project is pretty easy even without any knowledge of CTF
 - The most important command in the first levels will be `find` !
-- 
 
 Ressources
 ----------
