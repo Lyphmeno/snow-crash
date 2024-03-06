@@ -1,4 +1,4 @@
-evel 06
+Level 06
 ========
 
 *	We spawn with a `level06` file in root repository
@@ -11,13 +11,25 @@ evel 06
 	```
 	```php
 	#!/usr/bin/php
-	<?php
-	function y($m) { $m = preg_replace("/\./", " x ", $m); $m = preg_replace("/@/", " y", $m); return $m; }
-	function x($y, $z) { $a = file_get_contents($y); $a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a); $a = preg_replace("/\[/", "(", $a); $a = preg_replace("/\]/", ")", $a); return $a; }
-	$r = x($argv[1], $argv[2]); print $r;
-	?>
+	function y($m)
+	{ 
+		$m = preg_replace("/\./", " x ", $m);
+		$m = preg_replace("/@/", " y", $m);
+		return $m;
+	}
+
+	function x($y, $z)
+	{
+		$a = file_get_contents($y);
+		$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);
+		$a = preg_replace("/\[/", "(", $a);
+		$a = preg_replace("/\]/", ")", $a);
+		return $a;
+	}
+
+	$r = x($argv[1], $argv[2]);
+	print $r;
 	```
-*	It is quite unreadable so i made it better in `level06.php`
 *	When we look in detail, we can see that the executable runs the script of the `level06.php` file
 *	More important, in the permissions we can see that `level06` will be executed as `flag06`
 *	The script is pretty straight forward:
@@ -41,8 +53,3 @@ evel 06
 	PHP Notice:  Use of undefined constant getflag - assumed 'getflag' in /home/user/level06/level06.php(4) : regexp code on line 1
 	PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub in /home/user/level06/level06.php(4) : regexp code on line 1
 	```
-
-REMEDY
-======
-
-The regex modifier `/e` is deprecated for a reason
